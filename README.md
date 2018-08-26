@@ -1,6 +1,7 @@
 ## Modeling Citation Trajectories of Scientific Papers
 * This repository contains the code and data required to reproduce the results reported in the paper.
 * The following sections contain instructions on running the models.
+* An additional data file `node_edge_dict` is required for models run on the APS dataset. [Here]{https://drive.google.com/file/d/1t1YPBCGUSWazke2sS_5w6dDhdzqabzqd/view?usp=sharing} is the link to it, since it exceeded the 100MB file size limit set by git.
 
 ### Evaluation Model
 * `javac CitationPattern.java`
