@@ -9,7 +9,7 @@
 ### Ground-truth network
 * `python generate_gt_net.py`
 
-### Barabasi-ALbert, Additive-fitness, Multiplicative-fitness models
+### Barabasi-Albert, Additive-fitness, Multiplicative-fitness models
 * `python main_<ba,add,mult>.py --out_suffix OUT_SUFFIX --track_till GROW_TILL --num_threads 0`
 * The argument `GROW_TILL` should have the year till which we want to grow the network. This means, only the nodes published till the year `GROW_TILL - 10` will be classified by the evaluation model.
 
